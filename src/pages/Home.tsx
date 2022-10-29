@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useTranslation } from 'react-i18next';
+import { Header } from '../components/Header';
 
 export function Home() {
-  const [count, setCount] = useState(0)
+  const { t } = useTranslation()
 
   return (
-    <div className="App">
-      
+    <div>
+      <Header />
+      <h2>{t('test')}</h2>
     </div>
   )
 }

@@ -1,0 +1,17 @@
+{
+  "translation": {
+    "selectYourLanguage": "choisissez votre langue",
+    "Portuguese": "Portugais",
+    "English": "Anglais",
+    "Spanish": "Espagnol",
+    "French": "Français",
+
+    "HeaderHome": "Accueil",
+    "HeaderSolutions": "Solutions",
+    "HeaderClients": "Clients",
+    "HeaderPrices": "Prix",
+    "HeaderContact": "Contact",
+    "LanguageName": "bonjur"
+
+  }
+}
