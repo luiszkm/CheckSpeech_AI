@@ -1,14 +1,14 @@
 import { Header } from "../components/Header";
+import { Section } from "../components/Section";
 
 
 
 export function Contact (){
 
   return (
-    <div>
-      <Header/>
+    <Section id="contact">
 
-      <h2>Test</h2>
-    </div>
+      <h2>Contato</h2>
+    </Section>
   )
 }

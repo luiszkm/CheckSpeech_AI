@@ -10,7 +10,12 @@
     "HeaderSolutions": "Soluciones",
     "HeaderClients": "Clientes",
     "HeaderPrices": "Precios",
-    "HeaderContact": "Contacto"
+    "HeaderContact": "Contacto",
+
+    "HomeTitle": "La prochaine génération de",
+    "WebSite": "WebSite",
+    "Description":"CheckSpeech AI es un conjunto de API para convertir el habla en texto, así como para interpretar el sentimiento dominante en el habla. Nuestra solución está entrenada en más de 500 000 horas de audio, transcritas por humanos de una amplia variedad de edades, nacionalidades, acentos y niveles de instrucción. La API se comercializa en el modelo SAAS (software como servicio)."
+
 
   }
 }

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useTranslation } from "react-i18next"
 
 const languageOptions = [
@@ -23,7 +23,6 @@ const languageOptions = [
     flag: ""
   }
 ]
-const languageBrowser = JSON.parse(localStorage.getItem('@CheckSpeechLanguage') || "ptBR")
 
 export const LanguageSwitcher = () => {
   const { t, i18n } = useTranslation()
@@ -36,13 +35,20 @@ export const LanguageSwitcher = () => {
     localStorage.setItem('@CheckSpeechLanguage', JSON.stringify(value))
   }
 
+  useEffect(()=>{
+    const languageBrowser = JSON.parse(localStorage.getItem('@CheckSpeechLanguage') || "ptBR")
+    setLanguage(languageBrowser)
+    console.log("render");
+    
+  },[language])
+
     return (
       <div className="flex flex-col text-2xs">
         <label htmlFor="language">{t("selectYourLanguage")}</label>
-        <select value={String(languageBrowser)} id="language" onChange={e => setLanguageValue(e.target.value)}>
+        <select value={String(language)} id="language" onChange={e => setLanguageValue(e.target.value)}>
           {
             languageOptions.map(optionLanguage => (
-              <option value={optionLanguage.value}
+              <option value={optionLanguage.value} key={String(optionLanguage.value)}
               >{t(`${optionLanguage.name}`)}</option>
 
             ))
@@ -51,5 +57,6 @@ export const LanguageSwitcher = () => {
       </div>
     )
   }
+
 
 

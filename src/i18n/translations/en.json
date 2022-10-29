@@ -10,7 +10,12 @@
     "HeaderSolutions": "Solutions",
     "HeaderClients": "Clients",
     "HeaderPrices": "Prices",
-    "HeaderContact": "Contact"
+    "HeaderContact": "Contact",
+
+    "HomeTitle": "The next generation of ",
+    "WebSite": "WebSite",
+    "Description":"CheckSpeech AI is a set of APIs for converting speech into text, as well as interpreting the dominant sentiment in speech. Our solution is trained on over 500,000 hours of audio, transcribed by humans of a wide variety of ages, nationalities, accents and instruction levels. The API is marketed on the SAAS (software as a service) model."
+
 
   }
 }
