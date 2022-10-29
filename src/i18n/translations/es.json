@@ -1,7 +1,10 @@
 {
   "translation": {
     "selectYourLanguage": "elige tu idioma",
-    "welcome": "bienvenido al mejor sitio web",
-    "welcomeYouCan": "¿Hola chicos, como estan? eres agradable?"
+    "HeaderHome": "Inicio",
+    "HeaderSolutions": "Soluciones",
+    "HeaderClients": "Clientes",
+    "HeaderPrices": "Precios",
+    "HeaderContact": "Contacto"
   }
 }

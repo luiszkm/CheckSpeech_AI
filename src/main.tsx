@@ -3,17 +3,12 @@ import ReactDOM from 'react-dom/client'
 import { Routes } from './routes'
 
 import "./i18n"
-import { ThemeProvider } from 'styled-components'
 
-import GlobalStyle from './styles/global'
-import theme from './styles/theme'
+import './styles/global.css'
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
       <Routes />
-    </ThemeProvider>
   </React.StrictMode>
 )
