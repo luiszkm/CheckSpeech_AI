@@ -36,18 +36,20 @@ export const LanguageSwitcher = () => {
     localStorage.setItem('@CheckSpeechLanguage', JSON.stringify(value))
   }
 
-  return (
-    <div className="flex flex-col text-2xs">
-      <label htmlFor="language">{t("selectYourLanguage")}</label>
-      <select value={String(languageBrowser)} id="language" onChange={e => setLanguageValue(e.target.value)}>
-        {
-          languageOptions.map(optionLanguage => (
-            <option value={optionLanguage.value}
-            >{t(`${optionLanguage.name}`)}</option>
+    return (
+      <div className="flex flex-col text-2xs">
+        <label htmlFor="language">{t("selectYourLanguage")}</label>
+        <select value={String(languageBrowser)} id="language" onChange={e => setLanguageValue(e.target.value)}>
+          {
+            languageOptions.map(optionLanguage => (
+              <option value={optionLanguage.value}
+              >{t(`${optionLanguage.name}`)}</option>
 
-          ))
-        }
-      </select>
-    </div>
-  )
-}
+            ))
+          }
+        </select>
+      </div>
+    )
+  }
+
+

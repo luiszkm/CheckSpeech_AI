@@ -5,13 +5,12 @@
     "English": "inglés",
     "Spanish": "español",
     "French": "Francés",
-    
+
     "HeaderHome": "Inicio",
     "HeaderSolutions": "Soluciones",
     "HeaderClients": "Clientes",
     "HeaderPrices": "Precios",
-    "HeaderContact": "Contacto",
-    "LanguageName": "Espanol"
+    "HeaderContact": "Contacto"
 
   }
 }
