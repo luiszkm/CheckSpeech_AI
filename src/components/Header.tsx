@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -16,7 +15,6 @@ export function Header() {
 
 
         <ul className="hidden gap-4 md:flex ">
-
           <li><Link to=''>{t('HeaderHome')}</Link></li>
           <li><Link to=''>{t('HeaderSolutions')}</Link></li>
           <li><Link to=''>{t('HeaderClients')}</Link></li>
@@ -26,7 +24,6 @@ export function Header() {
         <LanguageSwitcher />
 
         <NavBar />
-
       </nav>
     </div>
   )

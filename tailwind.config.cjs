@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontSize: {
-      "2xs":10,
+      "2xs": 10,
       xs: 14,
       sm: 16,
       md: 18,
@@ -14,7 +14,7 @@ module.exports = {
       '2xl': 32,
     },
     colors: {
-      transparent : 'transparent',
+      transparent: 'transparent',
       'black': '#000000',
       'white': '#FFFFFF',
       gray: {
@@ -34,7 +34,7 @@ module.exports = {
       fontFamily: {
         sans: 'Inter, sans-serif',
       },
-      backgroundImage:{
+      backgroundImage: {
         'hero-pattern': "url('./src/assets/curso design de sobrancelha 3.jpg') ",
       }
     },
