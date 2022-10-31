@@ -29,7 +29,12 @@ module.exports = {
       cyan: {
         500: '#81D8F7',
         300: '#9BE1F8',
+      },
+
+      red:{
+        700: "#b91c1c"
       }
+
     },
     extend: {
       fontFamily: {
