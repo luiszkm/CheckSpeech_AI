@@ -35,28 +35,43 @@ export const LanguageSwitcher = () => {
     localStorage.setItem('@CheckSpeechLanguage', JSON.stringify(value))
   }
 
-  useEffect(()=>{
-    const languageBrowser = JSON.parse(localStorage.getItem('@CheckSpeechLanguage') || "ptBR")
-    setLanguage(languageBrowser)
-    console.log("render");
+  let languageBrowser: string
+  
+  function GetLanguageValue() {
+   try {
+     languageBrowser =  JSON.parse(localStorage.getItem('@CheckSpeechLanguage') || "")
+     return languageBrowser
+   } catch {
+     languageBrowser = "PtBR"
+     return languageBrowser
+   }
+ } 
+  useEffect(() => {
     
-  },[language])
+   GetLanguageValue()
+  
+    console.log(languageBrowser)
 
-    return (
-      <div className="flex flex-col text-2xs">
-        <label htmlFor="language">{t("selectYourLanguage")}</label>
-        <select value={String(language)} id="language" onChange={e => setLanguageValue(e.target.value)}>
-          {
-            languageOptions.map(optionLanguage => (
-              <option value={optionLanguage.value} key={String(optionLanguage.value)}
-              >{t(`${optionLanguage.name}`)}</option>
 
-            ))
-          }
-        </select>
-      </div>
-    )
-  }
+    setLanguage(languageBrowser)
+
+  }, [language])
+
+  return (
+    <div className="flex flex-col text-2xs">
+      <label htmlFor="language">{t("selectYourLanguage")}</label>
+      <select value={String(language)} id="language" onChange={e => setLanguageValue(e.target.value)}>
+        {
+          languageOptions.map(optionLanguage => (
+            <option value={optionLanguage.value} key={String(optionLanguage.value)}
+            >{t(`${optionLanguage.name}`)}</option>
+
+          ))
+        }
+      </select>
+    </div>
+  )
+}
 
 
 

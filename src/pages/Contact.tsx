@@ -22,6 +22,8 @@ export function Contact() {
   const [phone, setPhone] = useState<string>('')
   const [invalidPhone, setInvalidPhone] = useState<boolean>(false)
 
+
+  const [message, setMessage] = useState<string>('')
   const [formValid, setFormValid] = useState<boolean>()
 
 
@@ -59,6 +61,11 @@ export function Contact() {
       setInvalidEmail(false)
       setInvalidPhone(false)
       setFormValid(true)
+      setName('')
+      setEmail('')
+      setPhone('')
+      setMessage('')
+
     }
 
 
@@ -82,6 +89,7 @@ export function Contact() {
         <label htmlFor="name"> Nome <span className={invalidName ? "text-red-700" : "text-black"}>*</span>
           <Input id="name"
             required
+            value={name}
             placeholder="Nome"
             title={"Nome invalido"}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setName(e.target.value)}
@@ -93,6 +101,7 @@ export function Contact() {
         <label htmlFor="email"> Email<span className={invalidEmail ? "text-red-700" : "text-black"}>*</span>
           <Input
             required
+            value={email}
             placeholder="Email"
             type="email"
             pattern={"[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,4}"}
@@ -106,6 +115,7 @@ export function Contact() {
         <label htmlFor="phone">Telefone<span className={invalidPhone ? "text-red-700" : "text-black"}>*</span>
           <Input required
             id="phone"
+            value={phone}
             placeholder="55 31 98765-3210"
             title={"telefone invalido"}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPhone(e.target.value)}
@@ -116,8 +126,9 @@ export function Contact() {
         </label>
 
         <label htmlFor="message" className="flex flex-col"> Deixe sua mensagem:
-          <textarea  id="message" rows={4} placeholder={"sua mensagem"}
-          className="h-64 p-2 outline-0 border-2 border-black rounded focus:ring-cyan-500 focus:border-cyan-500">
+          <textarea id="message" rows={4} placeholder={"sua mensagem"} value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            className="h-64 p-2 outline-0 border-2 border-black rounded focus:ring-cyan-500 focus:border-cyan-500">
 
           </textarea>
         </label>
