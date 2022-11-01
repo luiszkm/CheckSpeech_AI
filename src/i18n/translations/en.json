@@ -22,6 +22,25 @@
     "SolutionFour":"Análise de sentimento a partir do áudio (áudio pré-gravado): Encontre os momentos mais importantes em trechos de falas, diferencie falas positivas e negativas e tome decisões de negócios mais assertivas com uma compreensão mais profunda.",
     
 
+    "PriceBeginner":"$5.68 per month or $65.00 for an annual purchase",
+    "Beginner1":"synchronous Audio Transcription - 120 minutes ($0.040 / surplus minute)",
+    "Beginner2":"Real-time Audio Transcription - 90 minutes ($0.080 / extra minute)",
+    "Beginner3":"Identification of Languages ​​in audios - 200 minutes ($0.001 / extra minute)",
+    "Beginner4":"Sentiment analysis from audio (pre-recorded audio) - 120 minutes ($0.080 / surplus minute)",
+
+    "PriceBusiness":"$44 per month or R$97.97 for an annual purchase.",
+    "Business1":"Asynchronous Audio Transcription - 200 minutes ($0.030 / surplus minute)",
+    "Business2":"Real-time Audio Transcription - 120 minutes ($0.080 / surplus minute)",
+    "Business3":"Language Identification in audios - 500 minutes ($0.006 / surplus minute)",
+    "Business4":"Analysis of sentiment from audio (pre-recorded audio) - 200 minutes ($0.070 / surplus minute)",
+
+    "PriceEnterprise":"price on request. Link to contact form.",
+    "Enterprise1":"Special pricing for large volumes.",
+    "Enterprise2":"Priority on technical support.",
+    "Enterprise3":"Dedicated Account Manager.",
+
+
+
     "Contact":"Contact",
     "SuccessMensagem": "Message sent successfully!",
     "Fields":"Please fill in all fields!",

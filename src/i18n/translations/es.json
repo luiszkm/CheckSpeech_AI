@@ -23,6 +23,24 @@
     "SolutionFour":"Análise de sentimento a partir do áudio (áudio pré-gravado): Encontre os momentos mais importantes em trechos de falas, diferencie falas positivas e negativas e tome decisões de negócios mais assertivas com uma compreensão mais profunda.",
 
 
+    
+
+    "PriceBeginner":"€5.75 por mes o €65.00 para una compra anual",
+    "Beginner1":"Transcripción de Audio Asíncrona - 120 minutos (0.040 € / minuto de exceso)",
+    "Beginner2":"Transcripción de audio en tiempo real - 90 minutos (0.080 € / minuto extra)",
+    "Beginner3":"Identificación de Idiomas en audios - 200 minutos (0,.99€/minuto extra)",
+    "Beginner4":"Análisis de sentimiento a partir de audio (audio pregrabado) - 120 minutos (0.080 € / minuto extra)",
+
+    "PriceBusiness":"8.75€ al mes o 99.00€ por una compra anual.",
+    "Business1":"Transcripción de audio asíncrona - 200 minutos (0,030€/minuto extra)",
+    "Business2":"Transcripción de audio en tiempo real - 120 minutos (0,40€/minuto extra)",
+    "Business3":"Identificación de idioma en audios - 500 minutos (0,006€/minuto extra)",
+    "Business4":"Análisis de sentimiento a partir de audio (audio pregrabado) - 200 minutos (0,070€/minuto excedente)",
+
+    "PriceEnterprise":"precio a consultar. Enlace al formulario de contacto.",
+    "Enterprise1":"Precios especiales para grandes volúmenes.",
+    "Enterprise2":"Prioridad en soporte técnico.",
+    "Enterprise3":"Administrador de cuenta dedicado.",
 
 
     "Contact":"Contacto",

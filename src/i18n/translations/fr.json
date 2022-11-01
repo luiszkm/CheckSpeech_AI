@@ -22,7 +22,26 @@
     "SolutionThree":"Identification de la langue audio : obtenir de la parole et des informations à l'échelle mondiale. Notre solution prend en charge 52 langues.",
     "SolutionFour":"Análise de sentimento a partir do áudio (áudio pré-gravado): Encontre os momentos mais importantes em trechos de falas, diferencie falas positivas e negativas e tome decisões de negócios mais assertivas com uma compreensão mais profunda.",
 
+
     
+    "PriceBeginner":"5.75€ par mois ou 65.00€ pour un achat annuel",
+    "Beginner1":"Transcription Audio Asynchrone - 120 minutes (franchise 0.040€/minute)",
+    "Beginner2":"Transcripción de audio en tiempo real - 90 minutos (0.080 € / minuto extra)",
+    "Beginner3":"Identification de la langue dans les audios - 200 minutes (0,99€/minute supplémentaire)",
+    "Beginner4":"Analyse des sentiments à partir de l'audio (audio pré-enregistré) - 120 minutes (0,080€ / minute supplémentaire)",
+
+    "PriceBusiness":"8,75 € par mois ou 99,00 € pour un achat annuel.",
+    "Business1":"Transcription audio asynchrone - 200 minutes (0,030€/minute en sus)",
+    "Business2":"Transcription audio en temps réel - 120 minutes (0,40€/minute en sus)",
+    "Business3":"Identification audio de la langue - 500 minutes (0,006 €/minute en supplément)",
+    "Business4":"Analyse des sentiments à partir de l'audio (audio pré-enregistré) - 200 minutes (excédent de 0,070 €/minute)",
+
+    "PriceEnterprise":"prix à consulter. Lien vers le formulaire de contact.",
+    "Enterprise1":"Prix spéciaux pour gros volumes.",
+    "Enterprise2":"Priorité au support technique.",
+    "Enterprise3":"Gestionnaire de compte dédié.",
+
+
     "Contact":"Contacter",
     "SuccessMensagem": "Message envoyé avec succès !",
     "Fields":"Veuillez remplir tous les champs !",

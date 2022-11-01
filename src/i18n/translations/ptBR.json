@@ -23,6 +23,24 @@
     "SolutionThree":"Identificação de Idiomas em áudios: Obtendo fala e insights a nível global. Nossa solução tem suporte a 52 idiomas.    ",
     "SolutionFour":"Análise de sentimento a partir do áudio (áudio pré-gravado): Encontre os momentos mais importantes em trechos de falas, diferencie falas positivas e negativas e tome decisões de negócios mais assertivas com uma compreensão mais profunda. ",
 
+
+    "PriceBeginner":"R$29 por mês ou R$328 para uma compra anual",
+    "Beginner1":"Transcrição de Áudio Assíncrono - 120 minutos (R$0,20 / minuto excedente)",
+    "Beginner2":"Transcrição de Áudio em tempo real - 90 minutos (R$0,40 / minuto excedente)",
+    "Beginner3":"Identificação de Idiomas em áudios - 200 minutos (R$0,05 / minuto excedente)",
+    "Beginner4":"Análise de sentimento a partir do áudio (áudio pré-gravado) - 120 minutos (R$0,40 / minuto excedente)",
+
+    "PriceBusiness":"R$44 por mês ou R$499 para uma compra anual.",
+    "Business1":"Transcrição de Áudio Assíncrono - 200 minutos (R$0,15 / minuto excedente)",
+    "Business2":"Transcrição de Áudio em tempo real - 120 minutos (R$0,40 / minuto excedente)",
+    "Business3":"Identificação de Idiomas em áudios - 500 minutos (R$0,03 / minuto excedente)",
+    "Business4":"Análise de sentimento a partir do áudio (áudio pré-gravado) - 200 minutos (R$0,35 / minuto excedente)",
+
+    "PriceEnterprise":"preço sob consulta. Link para form de contato.",
+    "Enterprise1":"Preços especiais para grandes volumes.",
+    "Enterprise2":"Prioridade no suporte técnico.",
+    "Enterprise3":"Gestor de conta dedicado.",
+
     
     "Contact":"Contato",
     "SuccessMensagem": "Mensagem enviada com sucesso!",
