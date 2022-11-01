@@ -17,6 +17,10 @@
     "Description":"CheckSpeech AI est un ensemble d'API permettant de convertir la parole en texte, ainsi que d'interpréter le sentiment dominant dans la parole. Notre solution est entraînée sur plus de 500 000 heures d'audio, retranscrites par des humains d'âges, de nationalités, d'accents et de niveaux d'instruction très variés.L'API est commercialisée sur le modèle SAAS (software as a service).",
 
 
+    "SolutionOne":"Transcription audio asynchrone (audio préenregistré) : API de transcription vocale asynchrone pour l'audio préenregistré. Nous avons l'un des meilleurs moteurs de reconnaissance vocale au monde ! La synthèse vocale asynchrone est un partenaire stratégique pour votre entreprise. Que vous extrayiez des informations audio ou transcriviez du contenu à grande échelle.",
+    "SolutionTwo":"Transcription audio en temps réel (streaming) : la fonction de transcription en direct de la parole en texte permet l'utilisation de sous-titres en temps réel pour votre entreprise. Nos sous-titres garantissent que les conférences et les formations en direct sont accessibles et peuvent être archivées pour une utilisation future.",
+    "SolutionThree":"Identification de la langue audio : obtenir de la parole et des informations à l'échelle mondiale. Notre solution prend en charge 52 langues.",
+    "SolutionFour":"Análise de sentimento a partir do áudio (áudio pré-gravado): Encontre os momentos mais importantes em trechos de falas, diferencie falas positivas e negativas e tome decisões de negócios mais assertivas com uma compreensão mais profunda.",
 
     
     "Contact":"Contacter",
