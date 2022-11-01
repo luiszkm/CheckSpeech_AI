@@ -14,6 +14,26 @@
 
     "HomeTitle": "La próxima generación de",
     "WebSite": "WebSite",
-    "Description":"CheckSpeech AI est un ensemble d'API permettant de convertir la parole en texte, ainsi que d'interpréter le sentiment dominant dans la parole. Notre solution est entraînée sur plus de 500 000 heures d'audio, retranscrites par des humains d'âges, de nationalités, d'accents et de niveaux d'instruction très variés.L'API est commercialisée sur le modèle SAAS (software as a service)."
+    "Description":"CheckSpeech AI est un ensemble d'API permettant de convertir la parole en texte, ainsi que d'interpréter le sentiment dominant dans la parole. Notre solution est entraînée sur plus de 500 000 heures d'audio, retranscrites par des humains d'âges, de nationalités, d'accents et de niveaux d'instruction très variés.L'API est commercialisée sur le modèle SAAS (software as a service).",
+
+
+
+    
+    "Contact":"Contacter",
+    "SuccessMensagem": "Message envoyé avec succès !",
+    "Fields":"Veuillez remplir tous les champs !",
+    "Name":"Nom ",
+    "Email":"E-mail",
+    "InvalidName":"Nom invalide !",
+    "InvalidEmail":"E-mail invalide !",
+    "Phone":"Téléphone",
+    "InvalidPhone":"éléphone invalide !",
+    "Message":"Laissez votre message",
+    "IAgre":"Je suis d'accord avec la politique de confidentialité.",
+    "YourCountry":"Sélectionnez votre pays.",
+    "Send":"Soumettre",
+
+
+    "":""
   }
 }

@@ -14,7 +14,26 @@
 
     "HomeTitle": "The next generation of ",
     "WebSite": "WebSite",
-    "Description":"CheckSpeech AI is a set of APIs for converting speech into text, as well as interpreting the dominant sentiment in speech. Our solution is trained on over 500,000 hours of audio, transcribed by humans of a wide variety of ages, nationalities, accents and instruction levels. The API is marketed on the SAAS (software as a service) model."
+    "Description":"CheckSpeech AI is a set of APIs for converting speech into text, as well as interpreting the dominant sentiment in speech. Our solution is trained on over 500,000 hours of audio, transcribed by humans of a wide variety of ages, nationalities, accents and instruction levels. The API is marketed on the SAAS (software as a service) model.",
+
+
+    "Contact":"Contact",
+    "SuccessMensagem": "Message sent successfully!",
+    "Fields":"Please fill in all fields!",
+    "Name":"Name",
+    "Email":"Email",
+    "InvalidName":"Invalid Name",
+    "InvalidEmail":"Invalid Email",
+    "Phone":"Phone",
+    "InvalidPhone":"Invalid Phone",
+    "Message":"Leave your message",
+    "IAgre":"I agree with the Privacy Policy.",
+    "YourCountry":"select your country.",
+    "Send":"submit",
+
+
+    "":""
+
 
 
   }
